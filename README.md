@@ -29,10 +29,10 @@ Funkcjonalność dodawania profilu nowego gracza jest dość intuicyjna, widoczn
 Funkcjonalność edytowania profilu gracza jest według mnie zbyt łatwo dostępna - wystarczy wejść w profil gracza, nie ma osobmego przycisku do edycji profilu. Taka konstrukcja może sprzyjać przypadkowemu i niechcianemu edytowaniu informacji o graczu. W przypadku edycji informacji o meczu widoczna jest już ikona ołówka przenosząca na podstronę edycji informacji o meczu. 
 
 
-Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
+* Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 Wygląd aplikacji jest niedopracowany, sprawia wrażenie, że aplikacja jest nadal w budowie. Brak dopracowanej szaty graficznej, na stronie głównej w poszczególnych sekcjach występują przypadkowe kolory. Logo i nazwa aplikacji znajdują się w przypadkowym miejscu, bliżej środkowej części okna przeglądarki. W menu strony brakuje buttonów prowadzących do wszytskich podstron (mecze, raporty). Ponadto menu podzielone jest poziomą linią co sprawia wrażenie dwóch oddzielnych menu. Poszczególne sekcje nie są ładnie rozłożone na stronie, odległosci między nimi są różne, a same sekcje mają różne rozmiary. 
 
 
-Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
-Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)
+* Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
+* Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń! ;)
 PS. Podczas testowania nie zapomnij z korzystania z poznanych dzisiaj DEVTOOLSÓW ❤️❤️❤️
