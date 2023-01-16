@@ -20,12 +20,11 @@ Testowana aplikacja: [Aplikacja dla skautów piłki nożnej](https://scouts-test
 * Na czym polega ta aplikacja? Do czego służy? Aplikacja jest przeznaczon dla osób poszukujących talentów piłkarskich. Umożliwia ona zapisywanie informacji o piłkarzach, w tym między innymi dane osobowe, główna pozycja, na której gra pikarz, pozycja alternatywna, do jakiego klubu należy, jaką uzyskał punktację w rankingu, ile zagrał meczy itp. Oprócz danych piłkarzy możliwe jest zapisywanie danych o rozegranych meczach i tworzenie raportów dotyczących konkretnego piłkarza z jego gry w konkretjym meczu. 
 
 * Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!) W aplikacji znajdują się trzy funjconalności spośród 4 funkjconalności CRUD: 
+  * tworzenie profilu piłkarza, tworzenie profilu meczu, tworzenie raportu z meczu (Create)
+  * wyświetlanie profilów piłkarzy, meczy, wyświetlanie raportów z meczy (Read)
+  * edytowanie profilów pikarzy, profilów meczy, raportów z meczy (Update)
+  * nie ma możliwości usuwania porofilu zawodnika ani raportu (Delate).
 
-*tworzenie profilu piłkarza, tworzenie profilu meczu, tworzenie raportu z meczu (create)
-*wyświetlanie profilów piłkarzy, meczy, wyświetlanie raportów z meczy (read)
-*edytowanie profilów pikarzy, profilów meczy, raportów z meczy (update)
-
-Nie ma możliwości usuwania porofili ani raportów.
 Funkcjonalność dodawania profilu nowego gracza jest dość intuicyjna, widoczny jest przycisk "Dodaj gracza" w centralnej części strony głównej, jednakże myląca jest kategoria, do której przypisano button (forma linku). Dodawanie profilu meczu i raportu jest utrudnione i nie jest możliwe z poziomu strony głównej. Aby dodać mecz należy najpierw wejść w profil dowolnego gracza, dopiero wówczas wyświetlają się przyciski przenoszące do podstron z profilami meczy oraz raportami. 
 Funkcjonalność edytowania profilu gracza jest według mnie zbyt łatwo dostępna - wystarczy wejść w profil gracza, nie ma osobmego przycisku do edycji profilu. Taka konstrukcja może sprzyjać przypadkowemu i niechcianemu edytowaniu informacji o graczu. W przypadku edycji informacji o meczu widoczna jest już ikona ołówka przenosząca na podstronę edycji informacji o meczu. 
 
