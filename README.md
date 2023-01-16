@@ -3,7 +3,7 @@
 ## TASK 1
 
 ### Subtask 1
-i zapisz ilość punktów, którą udało Ci się uzyskać podczas testu.
+10/10 :sunglasses:
 
 ### Subtask 3
 
