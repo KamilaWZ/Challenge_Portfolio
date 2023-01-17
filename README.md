@@ -39,7 +39,7 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
 
 * Aplikacja jest mało intuicyjna i mało przyjazna dla użytkownika końcowego. Jak wyżej opisano, trudno jest odtworzyć sposób generowania raportu. Do podstawowych funkkcjonalności trzeba dostawać się poprzez inne funkcjonalności. Dość dużo czasu zajmuje zapoznanie się z zasadami obsługi aplikacji, która w zasadzie jest wyposażona w proste i podstawowe funkcjonalności. Zaleca sie uproszczenie poruszania się po aplikacji.
 
-* Na stronie znajduje się wiele błędów bądź rozwiązań, które zdecydowanie wymagają usprawnienia, m.in:
+* Na stronie znajduje się wiele błędów bądź rozwiązań, które zdecydowanie wymagają poprawienia bądź usprawnienia, m.in:
   * nieprawdiłowa walidacja w formularzu profilu zawodnika, bądź jej całkowity brak np. możliwe jest wprowadzanie imion i nazwisk z małych liter, bądź w formacie innym niż string, w tym również obrazków (brak walidacji)
   * formularz dodawania gracza wymaga podania prawidłowego adresu adresu e-mail z uwgzlędnieniem znaku "@" oraz znakiem ".", jednakże po wprowadzeniu adresu e-mail bez tych znaków nie wyświetla się żaden komunikat walidacyjny, zaś w konsoli DevTools wyświetla się błąd 400 i pojawia się informacja, że zawodnika nie można dopisać do listy, jednakże użytkownik nie wie z jakiego powodu (brak precyzyjnego wskazania niepoprawych danych)
   * funkcjonalność sortowania graczy (strzałka przy nazwach kolumn) jest całkowicie wadliwa (działa jak chce, nie wiadomo według jakich kryteriów)
