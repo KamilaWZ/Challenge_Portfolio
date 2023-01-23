@@ -60,4 +60,8 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
    [Test cases based on experience - exploratory testing](https://docs.google.com/document/d/1rNam7fzTw9favo2SR1Jr4JxTES8Q9yyqaLo_9nFacB8/edit?usp=sharing)
    
-  ## Subtask 3
+  ## Subtask 3 :raising_hand:
+  
+  ### Po co piszemy przypadki testowe?
+  
+  Przypadki testowe piszemy po to, by w sposób przejrzysty udokumentować możliwości obsłużenia modułów testowanej aplikacji. Projektując przypadki testowe widzimy, czy nie pominęliśmy żadnej funkcjonalności planując nasze testy. Dzięki temu minimalizujemy ryzyko wystąpienia awarii aplikacji w przyszłości. Przypadki testowe stanowią też źródło infomracji dla nowych osób w danej firmie. *Opracowano na podstawie:* [Waldemar Szfraniec - Jak pisać przypadki testowe?](https://www.wyszkolewas.com.pl/przypadki-testowe-przyklady/).
