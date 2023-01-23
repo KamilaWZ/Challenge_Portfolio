@@ -50,3 +50,14 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   * istnieje możliwość podawania dowolnych dat w tym przyszłych dat urodzenia graczy (np. 22.01.2023). 
   
   ❤️❤️❤️
+  
+  # Task 2
+  ## Subtask 1
+  
+  [Test cases based on User stories](https://docs.google.com/document/d/1TrRUwC-ZhLGTpM-TeEHJJNnbrRG2KVV8UPupftnk7U0/edit?usp=sharing)
+  
+  ## Subtask 2
+  
+   [Test cases based on experience - exploratory testing](https://docs.google.com/document/d/1rNam7fzTw9favo2SR1Jr4JxTES8Q9yyqaLo_9nFacB8/edit?usp=sharing)
+   
+  ## Subtask 3
