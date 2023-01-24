@@ -1,5 +1,10 @@
 # Challenge_Portfolio
 
+## TABLE OF CONTENT
+
+* [TASK 1](#task-1)
+* [TASK 2](#task-2)
+   
 ## TASK 1
 
 ### Subtask 1
@@ -51,7 +56,7 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
   ❤️❤️❤️
   
-  # Task 2
+  # TASK 2
   ## Subtask 1
   
   [Test cases based on User stories](https://docs.google.com/document/d/1TrRUwC-ZhLGTpM-TeEHJJNnbrRG2KVV8UPupftnk7U0/edit?usp=sharing)
@@ -66,4 +71,4 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
   Przypadki testowe piszemy po to, by w sposób przejrzysty udokumentować możliwości obsłużenia modułów testowanej aplikacji. W ten sposób również poznajemy aplikację, jej możliwości i funkcjonalności. Projektując przypadki testowe widzimy, czy nie pominęliśmy żadnej funkcjonalności planując nasze testy. Dzięki temu minimalizujemy ryzyko wystąpienia awarii aplikacji w przyszłości. Przypadki testowe stanowią też źródło infomracji dla nowych osób w danej firmie. *Opracowano na podstawie:* [Waldemar Szfraniec - Jak pisać przypadki testowe?](https://www.wyszkolewas.com.pl/przypadki-testowe-przyklady/).
   
-  ## Subtask 4
+  ## Subtask 4 (dodatkowy)
