@@ -73,4 +73,4 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
   ## Subtask 4 (dodatkowy)
   
-  [Test caases for the application Pick Eat Up](https://docs.google.com/document/d/1CartUoaSvK71w28mb8sJpO26JqBTWezALNNZea-6Q0M/edit?usp=sharing)
+  [Test cases for the application Pick Eat Up](https://docs.google.com/document/d/1CartUoaSvK71w28mb8sJpO26JqBTWezALNNZea-6Q0M/edit?usp=sharing)
