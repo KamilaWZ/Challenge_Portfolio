@@ -4,6 +4,7 @@
 
 * [TASK 1](#task-1)
 * [TASK 2](#task-2)
+* [TASK 3](#task-3)
    
 ## TASK 1
 
