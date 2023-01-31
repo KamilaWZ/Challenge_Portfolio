@@ -79,7 +79,7 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
  
   ## Subtask 1 i 2
   
-  [Bugs Report](https://docs.google.com/document/d/1TrRUwC-ZhLGTpM-TeEHJJNnbrRG2KVV8UPupftnk7U0/edit?usp=sharing)
+  [Bugs Report](https://docs.google.com/document/d/1Ag6beCPENZeE5BKXmksOxh-zIDabtTkhEYozjRtrE3U/edit?usp=sharing)
   
   ## Subtask 3
   
