@@ -89,3 +89,42 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   ## Subtask 4 :raising_hand:)
   
 In progress...
+
+# Task 4
+
+## Subtask 1 i 2
+
+
+## Subtask 3
+
+[Aplikacja mobilna OLX](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US&pli=1)
+
+1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+
+Eksplorowana w tym zadaniu aplikacja to platforma ogłoszeniowa. Umożliwia ona użytkownikom aplikacji:
+
+* zamieszczanie ogłoszeń z różnych ategorii (np. sprzedażowych, ogłoszeń o pracę, ogłoszeń związanych z najmem długo i krótko terminowym lokali, wynajmem sprzętów lub pojazdów, organizowaniem iventów np. bali innych imprez zorganizowanych, bądź też oddaniem rzeczy za darmo
+* wyszukiwanie interesujących ogłoszeń, a w konsekwencji dokonywanie zakupów, wynajem noclegów, aplikowanie na zamieszczone w portalu oferty pracy, wynajem maszyn lub pojazdów, zakup usług - np. zorganizowanie iventu, pozyskanie darmowych rzeczy.
+
+Głównym celem aplikacji jest cel biznesowy, którym jest wygenerwanie zysku pochodzącego głównie z prowizji za wystawione ogłoszenia, wyróżnianie ogłoszeń oraz z banerów reklamowych. Celem jest zatem również pozyskiwanie nowych klientów, którzy będą te zyski generowali.
+
+2. Kto ma być użytkownikiem końcowym aplikacji?
+
+Użytkownikiem końcowym aplikacji może być każdy - zarówno osoba fizyczna jak i przedsiębiorca. Nie wprowadzono ograniczeń wiekowych dla użytkowników aplikacji. 
+
+
+3. Czy według Ciebie aplikacja jest user friendly?
+
+   Można powiedzieć, że aplikacja user-friendly to taka, która daje użytkownikowi pozytywne doświadczenia w trakcie jej użytkowania. Jest intuicyjna  wobsłudze, wszystkie ścieżki prowadzące przez funkcjonalności aplikacji są jasne, prosto zaprojektowane i łatwe do opanowania dla przeciętnej osoby; nie wymagają korzystania z samouczka, a ilość kroków w każdej ścieżce jest ograniczona do minimum. Powoduje to, że użytkownik zaoszczędza czas, nie musi się nadmiernie wysilać przy korzystaniu z aplikacji, a zatem czerpie z tego wyłącznie przyjemność. Ważny jest również ładny i nowoczesny design, nieprzeładowanie elementami, spokojna i niemęcząca oczu kolorystyka, odpowiedniej wielkości czcionka, które będzie wyraźna, prosta ale jednocześnie łatwa. Aplikacja userfriendly musi być wydajna - nie może zawieszać się, cały jej content musi być dostęony (pełne ładowanie całej treści, w tym obrazków, plików itp). Powinna być również dostępna dla osób z różnymi ograniczeniami lub niepełnosprawnościami i zawierać np. teksty alternatywne dla osób niewidomych. Aplikacja user friendly to zatem taka, która spełnia wszystkie, bądź kluczowe potrzeby użytkownika końcowego. 
+   
+   Aplikacja OLX według mnie w większości spełnia kryteria aplikacji user-friendli. Posiada nowoczesny, przyjemny design, jest dość uporządkowana, wizualnie przyjemna, nie zawiesza się, cały content się ładuje stabilnie. Pochłania mnóstwo baterii - za to minus. Niektóre ścieżki nie są intuicyjne, a wręcz niepotrzebnie skomplikowane, jak chociażby wyszukiwanie ofert pracy po kategoriach. Jednocześnie wszytskie najważnijsze funkcje posiada na wierzchu, dzięki czemu łatwo i szybko można skorzystać z wybranej funkcjonalności. 
+
+
+4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? 
+
+   Zdecydowanie popracowałabym nad ścieżkami w obrębie funkcjonalności wyszukiwania ofert pracy. Według mnie na tle innych znanych portali OLX wypada słabo ze względu na zbyt długą ścieżkę wyszukiwania. Zastanowiłabym się nad wprowadzeniem automatycznego czyszczenia filtru, ponieważ pierwszy wpisany filtr (lokalizacja) pozostaje już z użytkownikiem i istnieje konieczność ciągłego czyszczenia filtrów, co może być na dłuższą metę uciążliwe. Popracowaabym również nad walidacjami, ponieważ wiele komunikatów walidacyjnych jest niezrozumiałych, mogą prowadzać użytkownika w błąd, nie pomagają zrozumieć, dlaczego system dalej nie przepuszcza (jak podczas rejestracji tego samego użytkownika na ten sam adres e-mail). 
+
+
+5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+Zauważyłam, że dość ważnym elementem staje się pochłanianie energii (baterii) przez aplikację, co przy testowaniu aplikacji webowej jest bez znaczenia. 
