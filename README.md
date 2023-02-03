@@ -130,3 +130,7 @@ Użytkownikiem końcowym aplikacji może być każdy - zarówno osoba fizyczna j
 **5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
 
 Zauważyłam, że dość ważnym elementem staje się pochłanianie energii (baterii) przez aplikację, co przy testowaniu aplikacji webowej jest bez znaczenia. Ważne stają się wizualne aspekty, przede wszytskim, czy tekst się nie rozjeżdża, czy nie ma przesunięć itp. Podczas gdy przy testowaniu stron www pewne błędy w tym zakresie można wybaczyć, to w przypadku mobilnych aplikacji już nie, ponieważ zaburzają one całkowicie korzystanie z apki. Zwraca się uwagę na to, czy aplikacja działa szybko i wydajnie, czy wszystko przesuwa się zgodnie z ruchem palca po ekranie. 
+
+## Subtask 4
+
+In progres...
