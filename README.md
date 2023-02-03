@@ -129,12 +129,8 @@ Użytkownikiem końcowym aplikacji może być każdy - zarówno osoba fizyczna j
 
 **5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
 
-Jednym z najistotniejszych kwestii w testowaniu aplikacji mobilnych jest ich responsywność oraz możliwość korzystania z urządzeń zarówno w pionie jak i w poziomie (orientacja horyzontalna i wertykalna). Ważne jest zatem testowanie aplikacji mobilnych używanych w obu tych orientacjach. 
- Zauważyłam, że bardzo ważnym elementem staje się pochłanianie energii (baterii) przez aplikację, co przy testowaniu aplikacji webowej jest bez znaczenia. 
- Kluczowe  stają się wizualne aspekty, przede wszytskim, czy tekst się nie rozjeżdża, czy nie ma przesunięć, czy  content jest ładnie dostosowany do wielkości ekranu. Podczas gdy przy testowaniu stron www pewne błędy w tym zakresie można wybaczyć, bądź nie są one aż tak istotne, lub nawet zauważalne, to w przypadku mobilnych aplikacji już nie, ponieważ zaburzają one całkowicie korzystanie z apki. 
- Kluczowe staje się zatem całe UX czyli user experience. Tutaj warto sprawdzić, czy wygodnie jest korzystać z telefonu podczas używania aplikacji (czy łatwo jest obsługiwać jedną ręką, zwłaszcza prawą). Konieczne jest sprawdzenie, czy ilość akcji, jakie musi wykonać użytkownik, jest ograniczona do minimu, czy interfejs użytkownika na to pozwala. Ważny staje się rozmiar i krój czcionki oraz to, czy tekst można przeczytać bez konieczności powiększania, czy wzrok się nie męczy. Sprawdzamy, czy nawigacja jest prosta i czy na każdej stronie znajdują się kluczowe informację oraz dostęp do kluczowych funkcjonalności.
- Zwraca się uwagę także na to, czy aplikacja działa szybko i wydajnie, czy wszystko przesuwa się zgodnie z ruchem palca po ekranie. 
- Ważny jest również rozmiar aplikacji, w tym w kntekście jej użyteczności proporcjonalnie do zajmowanego miejsca w pamięci.
+Przy testowaniu aplikacji internetowej skupimy się na takich elementach jak energochłonność aplikacji (zużycie baterii), jej responsywność (czy jest dobrze dostosowana do danej przeglądarki internetowej) czy nic się nie rozjeżdża, nie urywa w połowie (skalowalność do odpowiedniej rozdzielczości), czy korzystane z aplikacji spowolni działanie internetu oraz innych aplikacji zainstalowanych na urządzeniu. 
+Przy testowaniu aplikacji natywnych bardziej skupimy się na tym, czy nie "gryzie się" z innymi modułami urządzenia mobilnego oraz na całej waarstwie UXowej. Aplikacje natywne są o wiele droższe w wytworzeniu i utrzymaniu dlatego testy regresji będą zapewne stosowane z dużą ostrożnością, a co za tym idzie powinno się położyć nacisk na zasadę Left shift testing i zacząć testowanie jak najwcześniej. W ramach testów trzeba się tez skupić bardziej na samym procesie instalacji na danym urządzeniu. Trzeba zatem zadbać aby testy instalacji odbyły się na każdym z dedykowanych urządzeń oraz na systemie Android i iOs
 
 ## Subtask 4
 
