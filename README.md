@@ -125,7 +125,7 @@ Użytkownikiem końcowym aplikacji może być każdy - zarówno osoba fizyczna j
 **4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?** 
 
    Zdecydowanie popracowałabym nad ścieżkami w obrębie funkcjonalności wyszukiwania ofert pracy. Według mnie na tle innych znanych portali OLX wypada słabo ze względu na zbyt długą ścieżkę wyszukiwania. Zastanowiłabym się nad wprowadzeniem automatycznego czyszczenia filtru, ponieważ pierwszy wpisany filtr (lokalizacja) pozostaje już z użytkownikiem i istnieje konieczność ciągłego czyszczenia filtrów, co może być na dłuższą metę uciążliwe. Popracowaabym również nad walidacjami, ponieważ wiele komunikatów walidacyjnych jest niezrozumiałych, mogą prowadzać użytkownika w błąd, nie pomagają zrozumieć, dlaczego system dalej nie przepuszcza (jak podczas rejestracji tego samego użytkownika na ten sam adres e-mail). 
-
+   Jako nową funkcjonalność zasugerowałabym rozważenie wprowadzenia, przynajmniej na próbę, zakładki "Szukam", któa polegałaby na tym, że użytkownik, któy nie znalazł w bazie platformy pożądanego produktu/usługi/zwierzątka/nieruchomości itp, będzie mógł dodać ogłoszenie, w którym wskaże czego szuka, opisac parametry takiej rzeczy, jaką kwotę jest w stanie zapłacić (widełki), czy kwota jest do negocjacji, czy poszukuje rzeczy nowej czy używanej, czy chce odebrać na miejscu, czy z przesyłką itp. itd. Osoby, które posiadają taką rzecz/produkt/usługę, mogłyby w tej sprawie kontaktować się z szukającym lub wystawiać pod jego ogłoszeniem swoje oferty. 
 
 **5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
 
