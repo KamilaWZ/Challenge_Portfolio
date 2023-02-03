@@ -94,6 +94,7 @@ In progress...
 
 ## Subtask 1 i 2
 
+[Testowanie mobilne aplikacji OLX](https://docs.google.com/spreadsheets/d/1oUs1evyJmG12yDra0VEL7oDvgrAoWJkgntjJrCDbHqs/edit?usp=sharing)
 
 ## Subtask 3
 
