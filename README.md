@@ -1,13 +1,7 @@
 # Challenge_Portfolio
 
-## TABLE OF CONTENT
-
-* [TASK 1](#task-1)
-* [TASK 2](#task-2)
-* [TASK 3](#task-3)
-* [TASK 4](#task-4)
    
-## TASK 1
+## TASK :one:
 
 ### Subtask 1
 10/10 :sunglasses:
@@ -24,41 +18,59 @@ Cześć! 	:blush: Mam na imię Kamila i jestem bardzo szczęśliwa, że mogę uc
 
 ### Subtask 4
 
-#### Testowanie eksploracyjne 
-[Aplikacja dla skautów piłki nożnej](https://scouts-test.futbolkolektyw.pl/pl)
+#### **Opisz testowaną aplikację - do czego służy, jakie zawiera funkcjonalności :grey_question: Czy jest intuicyjna i przyjazna dla użytkownika :grey_question:**
+:point_right: [Aplikacja dla skautów piłki nożnej](https://scouts-test.futbolkolektyw.pl/pl)
 
+#### **Opis i cel aplikacji**
 
-Aplikacja jest przeznaczon dla osób prowadzących bazę piłkarzy i rozegranych meczy. Umożliwia ona zapisywanie informacji o piłkarzach, w tym między innymi dane osobowe, główną pozycję, na której gra pikarz, pozycję alternatywną, do jakiego klubu należy, jaką uzyskał punktację w rankingu, ile zagrał meczy itp. Oprócz danych piłkarzy możliwe jest zapisywanie danych o rozegranych meczach i generowanie raportów dotyczących konkretnego piłkarza z jego gry w konkretnym meczu. 
+Aplikacja jest przeznaczon dla osób prowadzących bazę piłkarzy i rozegranych przez nich meczy. Umożliwia ona zapisywanie informacji o piłkarzach, w tym między innymi dane osobowe zawodników, główną pozycję, na której gra pikarz, pozycję alternatywną, do jakiego klubu należy, jaką uzyskał punktację w rankingu, ile zagrał meczy itp. Oprócz danych piłkarzy możliwe jest zapisywanie danych o rozegranych meczach i generowanie raportów dotyczących konkretnego piłkarza z jego gry w konkretnym meczu. 
 
-*  W aplikacji znajdują się trzy funjconalności spośród 4 funkcjonalności CRUD: 
-    * tworzenie profilu piłkarza, tworzenie profilu meczu, tworzenie raportu (Create)
-    * wyświetlanie profilów piłkarzy, meczy, wyświetlanie raportów z meczy (Read)
-    * edytowanie profilów pikarzy, profilów meczy, raportów z meczy (Update)
-    * nie ma możliwości usuwania porofilu zawodnika, meczu ani raportu (Delate)
+Celem biznesowym aplikacji jest generowanie zysków.
+
+#### **Funkcjonalności**
+
+W aplikacji znajdują się trzy funjconalności spośród 4 funkcjonalności CRUD: 
+   * tworzenie profilu piłkarza, tworzenie profilu meczu, tworzenie raportu (Create)
+   * wyświetlanie profilów piłkarzy, meczy, wyświetlanie raportów z meczy (Read)
+   * edytowanie profilów pikarzy, profilów meczy, raportów z meczy (Update)
+   * nie ma możliwości usuwania porofilu zawodnika, meczu ani raportu (Delate)
   
-* Funkcjonalność dodawania profilu nowego gracza jest dość intuicyjna, widoczny jest przycisk "Dodaj gracza" w centralnej części strony głównej, jednakże myląca jest kategoria, do której przypisano button (forma linku). Dodawanie profilu meczu i raportu jest utrudnione i nie jest możliwe z poziomu strony głównej. Aby dodać mecz należy najpierw wejść w profil dowolnego gracza, dopiero wówczas wyświetlają się przyciski przenoszące do podstron z profilami meczy oraz raportami. 
+**Tworzenie profilu nowego gracza/meczu/raportu**
+
+Funkcjonalność jest dość intuicyjna, widoczny jest przycisk "Dodaj gracza" w centralnej części strony głównej. Myląca jest kategoria, do której przypisano button (forma linku). Dodawanie profilu meczu i raportu jest utrudnione i nie jest możliwe z poziomu strony głównej. Aby dodać mecz należy najpierw wejść w profil dowolnego gracza, dopiero wówczas wyświetlają się przyciski przenoszące do podstron z profilami meczy oraz raportami. 
+
 Bardzo utrudnione jest utworzenie nowego raportu dla konkretnego zawodnika. Aby dodać raport należy wejść w profil danego gracza i utworzyć mecz, w którym grał dany zawodnik, a następnie przejść do tworzenia raportu. Główny przycisk "Utwórz raport" przenosi na podstronę z meczami gracza. Dopiero tam należy klinknąć w ikonę "Akcje" - Utworz Raport, któa przenosi do strony automatycznego generowania raportu (wystarczy kliknąc przycisk "Submit"). Taka konstrukcja jest niewygodna i mało przyjazna dla użytkownika  
 
-* Funkcjonalność edytowania profilu gracza jest według mnie zbyt łatwo dostępna, brakuje osobnej ikony bądź przycisku edycji. Taka konstrukcja może sprzyjać przypadkowemu i niechcianemu edytowaniu informacji o graczu. W przypadku edycji informacji o meczu widoczna jest już ikona ołówka przenosząca na podstronę edycji informacji o meczu. 
+**Edycja**
+
+Funkcjonalność edytowania profilu gracza jest według mnie zbyt łatwo dostępna, brakuje osobnej ikony bądź przycisku edycji. Do formularza edycji przechodzi się niepostrzeżenie natychmiast po zapisaniu danych nowoutworzonego gracza. Może to być w zasadzie w ogóle nie zauważalne dla użytkownika. Taka konstrukcja może sprzyjać przypadkowemu i niechcianemu edytowaniu informacji o graczu. 
+
+W przypadku edycji informacji o meczu widoczna jest już ikona ołówka przenosząca na podstronę edycji meczu. 
+
+**Rozgrywka**
+
 W aplikacji istnieje również funkcjonalność rozegrania meczu, do której przechodzi się poprzez profil konkretnego zawodnika, a następnie wejscie w zakładkę "Mecze" i użycie akcji "Rozpocznij mecz". Funkcjonalność jest niezrozumiała, brakuje samouczka, który przedstawiałby zasady gry i obsługę funkcjonalności.
 
-* Wygląd aplikacji jest niedopracowany i nieciekawy, sprawia wrażenie, jakby aplikacja była nadal w budowie. Brak dopracowanej szaty graficznej, na stronie głównej w poszczególnych sekcjach (liczniki) występują przypadkowe kolory. Logo i nazwa aplikacji znajdują się w przypadkowym miejscu, bliżej środkowej części okna przeglądarki. W menu strony brakuje buttonów prowadzących do wszytskich podstron (mecze, raporty). Ponadto menu podzielone jest poziomą linią co sprawia wrażenie dwóch oddzielnych menu. Poszczególne sekcje nie są ładnie rozłożone na stronie (zbyt duże przerwy). Ikona chińskiego znaczka przy przycisku "English" może być myląca i nie wygląda ładnie. Mimo przeglądania strony w wersji polskojęzycznej, przyciski "zapisz" i "wyczyść" występują po angielsku. 
+#### **Wygląd aplikacji i User Experience**
 
-* Aplikacja jest mało intuicyjna i mało przyjazna dla użytkownika końcowego. Jak wyżej opisano, trudno jest odtworzyć sposób generowania raportu. Do podstawowych funkkcjonalności trzeba dostawać się poprzez inne funkcjonalności. Dość dużo czasu zajmuje zapoznanie się z zasadami obsługi aplikacji, która w zasadzie jest wyposażona w proste i podstawowe funkcjonalności. Zaleca sie uproszczenie poruszania się po aplikacji.
+Aplikacja jest niedopracowana i nieciekawa wizualnie, sprawia wrażenie, jakby pozostawała w budowie. Brak dopracowanej szaty graficznej, na stronie głównej w poszczególnych sekcjach (liczniki) występują przypadkowe kolory. Logo i nazwa aplikacji znajdują się w przypadkowym miejscu, bliżej środkowej części okna przeglądarki. W menu strony brakuje buttonów prowadzących do wszytskich podstron (mecze, raporty). Ponadto menu podzielone jest poziomą linią co sprawia wrażenie dwóch oddzielnych sekcji. Poszczególne sekcje nie są ładnie rozłożone na stronie (zbyt duże przerwy). Ikona chińskiego znaczka przy przycisku "English" może być myląca (być może ciekawszym rozwiązaniem byłoby zastosowanie ikon z flagami). Mimo przeglądania strony w wersji polskojęzycznej, przyciski "zapisz" i "wyczyść" występują po angielsku. 
 
-* Na stronie znajduje się wiele błędów bądź rozwiązań, które zdecydowanie wymagają poprawienia bądź usprawnienia, m.in:
-  * nieprawdiłowa walidacja w formularzu profilu zawodnika, bądź jej całkowity brak np. możliwe jest wprowadzanie imion i nazwisk z małych liter, bądź w formacie innym niż string, w tym również obrazków (brak walidacji)
-  * formularz dodawania gracza wymaga podania prawidłowego adresu adresu e-mail z uwgzlędnieniem znaku "@" oraz znakiem ".", jednakże po wprowadzeniu adresu e-mail bez tych znaków nie wyświetla się żaden komunikat walidacyjny, zaś w konsoli DevTools wyświetla się błąd 400 i pojawia się informacja, że zawodnika nie można dopisać do listy, jednakże użytkownik nie wie z jakiego powodu (brak precyzyjnego wskazania niepoprawych danych)
-  * funkcjonalność sortowania graczy (strzałka przy nazwach kolumn) jest całkowicie wadliwa (działa jak chce, nie wiadomo według jakich kryteriów)
+Aplikacja jest mało intuicyjna i mało przyjazna dla użytkownika końcowego. Jak wyżej opisano, trudno jest odtworzyć sposób generowania raportu. Do podstawowych funkcjonalności trzeba dostawać się poprzez inne funkcjonalności, zatem ścieżka dotępnu dla użytkownika może być zbyt długa, nużąca, a ostatecznie zniechęcająca. Dość dużo czasu zajmuje zapoznanie się z zasadami obsługi aplikacji, która jest wyposażona jedynie w proste i podstawowe funkcjonalności. Zaleca sie uproszczenie poruszania się po aplikacji i dopracowanie nawigacji.
+
+#### **Zauważalne błędy i sugestie**
+
+Na stronie znajduje się wiele błędów bądź rozwiązań, które zdecydowanie wymagają poprawienia bądź usprawnienia, a są widoczne na pierwszy rzut oka m.in:
+
+  * nieprawdiłowa walidacja w formularzu profilu zawodnika, bądź jej całkowity brak np. możliwe jest wprowadzanie imion i nazwisk z małych liter, bądź w formacie innym niż string, w tym również obrazków
+  * formularz dodawania gracza wymaga podania prawidłowego adresu adresu e-mail z uwgzlędnieniem znaku "@" oraz znakiem ".", jednakże po wprowadzeniu adresu bez tych znaków nie wyświetla się żaden komunikat walidacyjny, zaś w konsoli DevTools wyświetla się błąd 400 i pojawia się informacja, że zawodnika nie można dopisać do listy. Ostatecznie użytkownik nie jest w stanie zrozumieć z jakiego powodu system nie przyjmuje podanego adresu e-mail (brak precyzyjnego wskazania niepoprawych danych)
+  * funkcjonalność sortowania graczy (strzałka przy nazwach kolumn) działa niepoprawnie (nie wiadomo według jakich kryteriów system wyświetla wyniki)
   * brak możliwości sortowania meczy np. wg ilości bramek
-  * nieprawidłowo działa funkcjonalność importu danych do pliku CSV (nieczytelna tabela z krzaczkami zamiast poprawnych danych)
-  * funkcja filtrowania nie działa poprawnie
-  * istnieje możłiwość wpisania gracza o tych samych danych
-  * istnieje możliwość podawania dowolnych dat w tym przyszłych dat urodzenia graczy (np. 22.01.2023). 
+  * istnieje możliwość wpisania gracza o tych samych danych
+  * istnieje możliwość podawania dowolnych dat w tym przyszłych dat urodzenia graczy  
   
-  ❤️❤️❤️
   
-  # TASK 2
+  
+  # TASK :two:
   ## Subtask 1
   
   [Test cases based on User stories](https://docs.google.com/document/d/1TrRUwC-ZhLGTpM-TeEHJJNnbrRG2KVV8UPupftnk7U0/edit?usp=sharing)
@@ -77,7 +89,7 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
   [Test cases for the application Pick Eat Up](https://docs.google.com/document/d/1CartUoaSvK71w28mb8sJpO26JqBTWezALNNZea-6Q0M/edit?usp=sharing)
   
-   # TASK 3
+   # TASK :three:
  
   ## Subtask 1 i 2
   
@@ -91,7 +103,7 @@ W aplikacji istnieje również funkcjonalność rozegrania meczu, do której prz
   
 In progress...
 
-# Task 4
+# Task :four:
 
 ## Subtask 1 i 2
 
