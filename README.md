@@ -101,7 +101,7 @@ In progress...
 
 [Aplikacja mobilna OLX](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US&pli=1)
 
-**1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?**
+**1. Do czego służy ta aplikacja:grey_question: Jaki jest cel tej aplikacji:grey_question:**
 
 Eksplorowana w tym zadaniu aplikacja to platforma ogłoszeniowa. Umożliwia ona użytkownikom aplikacji:
 
@@ -110,24 +110,24 @@ Eksplorowana w tym zadaniu aplikacja to platforma ogłoszeniowa. Umożliwia ona 
 
 Głównym celem aplikacji jest cel biznesowy, którym jest wygenerwanie zysku pochodzącego głównie z prowizji za wystawione ogłoszenia, wyróżnianie ogłoszeń oraz z banerów reklamowych. Celem jest zatem również pozyskiwanie nowych klientów, którzy będą te zyski generowali.
 
-**2. Kto ma być użytkownikiem końcowym aplikacji?**
+**2. Kto ma być użytkownikiem końcowym aplikacji:grey_question:**
 
 Użytkownikiem końcowym aplikacji może być każdy - zarówno osoba fizyczna jak i przedsiębiorca. Nie wprowadzono ograniczeń wiekowych dla użytkowników aplikacji. 
 
 
-**3. Czy według Ciebie aplikacja jest user friendly?**
+**3. Czy według Ciebie aplikacja jest user friendly:grey_question:**
 
    Można powiedzieć, że aplikacja user-friendly to taka, która daje użytkownikowi pozytywne doświadczenia w trakcie jej użytkowania. Jest intuicyjna  wobsłudze, wszystkie ścieżki prowadzące przez funkcjonalności aplikacji są jasne, prosto zaprojektowane i łatwe do opanowania dla przeciętnej osoby; nie wymagają korzystania z samouczka, a ilość kroków w każdej ścieżce jest ograniczona do minimum. Powoduje to, że użytkownik zaoszczędza czas, nie musi się nadmiernie wysilać przy korzystaniu z aplikacji, a zatem czerpie z tego wyłącznie przyjemność. Ważny jest również ładny i nowoczesny design, nieprzeładowanie elementami, spokojna i niemęcząca oczu kolorystyka, odpowiedniej wielkości czcionka, które będzie wyraźna, prosta ale jednocześnie łatwa. Aplikacja userfriendly musi być wydajna - nie może zawieszać się, cały jej content musi być dostęony (pełne ładowanie całej treści, w tym obrazków, plików itp). Powinna być również dostępna dla osób z różnymi ograniczeniami lub niepełnosprawnościami i zawierać np. teksty alternatywne dla osób niewidomych. Aplikacja user friendly to zatem taka, która spełnia wszystkie, bądź kluczowe potrzeby użytkownika końcowego. 
    
    Aplikacja OLX według mnie w większości spełnia kryteria aplikacji user-friendli. Posiada nowoczesny, przyjemny design, jest dość uporządkowana, wizualnie przyjemna, nie zawiesza się, cały content się ładuje stabilnie. Pochłania mnóstwo baterii - za to minus. Niektóre ścieżki nie są intuicyjne, a wręcz niepotrzebnie skomplikowane, jak chociażby wyszukiwanie ofert pracy po kategoriach. Jednocześnie wszytskie najważnijsze funkcje posiada na wierzchu, dzięki czemu łatwo i szybko można skorzystać z wybranej funkcjonalności. 
 
 
-**4. Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?** 
+**4. Jak byś usprawnił aplikację:grey_question: Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność:grey_question:** 
 
    Zdecydowanie popracowałabym nad ścieżkami w obrębie funkcjonalności wyszukiwania ofert pracy. Według mnie na tle innych znanych portali OLX wypada słabo ze względu na zbyt długą ścieżkę wyszukiwania. Zastanowiłabym się nad wprowadzeniem automatycznego czyszczenia filtru, ponieważ pierwszy wpisany filtr (lokalizacja) pozostaje już z użytkownikiem i istnieje konieczność ciągłego czyszczenia filtrów, co może być na dłuższą metę uciążliwe. Popracowaabym również nad walidacjami, ponieważ wiele komunikatów walidacyjnych jest niezrozumiałych, mogą prowadzać użytkownika w błąd, nie pomagają zrozumieć, dlaczego system dalej nie przepuszcza (jak podczas rejestracji tego samego użytkownika na ten sam adres e-mail). 
    Jako nową funkcjonalność zasugerowałabym rozważenie wprowadzenia, przynajmniej na próbę, zakładki "Szukam", któa polegałaby na tym, że użytkownik, któy nie znalazł w bazie platformy pożądanego produktu/usługi/zwierzątka/nieruchomości itp, będzie mógł dodać ogłoszenie, w którym wskaże czego szuka, opisac parametry takiej rzeczy, jaką kwotę jest w stanie zapłacić (widełki), czy kwota jest do negocjacji, czy poszukuje rzeczy nowej czy używanej, czy chce odebrać na miejscu, czy z przesyłką itp. itd. Osoby, które posiadają taką rzecz/produkt/usługę, mogłyby w tej sprawie kontaktować się z szukającym lub wystawiać pod jego ogłoszeniem swoje oferty. 
 
-**5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?**
+**5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej:grey_question:**
 
 Przy testowaniu aplikacji internetowej skupimy się na takich elementach jak energochłonność aplikacji (zużycie baterii), jej responsywność (czy jest dobrze dostosowana do danej przeglądarki internetowej) czy nic się nie rozjeżdża, nie urywa w połowie (skalowalność do odpowiedniej rozdzielczości), czy korzystane z aplikacji spowolni działanie internetu oraz innych aplikacji zainstalowanych na urządzeniu. 
 Przy testowaniu aplikacji natywnych bardziej skupimy się na tym, czy nie "gryzie się" z innymi modułami urządzenia mobilnego oraz na całej waarstwie UXowej. Aplikacje natywne są o wiele droższe w wytworzeniu i utrzymaniu dlatego testy regresji będą zapewne stosowane z dużą ostrożnością, a co za tym idzie powinno się położyć nacisk na zasadę Left shift testing i zacząć testowanie jak najwcześniej. W ramach testów trzeba się tez skupić bardziej na samym procesie instalacji na danym urządzeniu. Trzeba zatem zadbać aby testy instalacji odbyły się na każdym z dedykowanych urządzeń oraz na systemie Android i iOs
