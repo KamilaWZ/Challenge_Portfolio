@@ -170,9 +170,9 @@ SELECT * FROM `movies` WHERE year_of_production = 2019
 
 **3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
-SELECT title FROM `movies` WHERE year_of_production BETWEEN 1990 and 1999
+SELECT * FROM `movies` WHERE year_of_production BETWEEN 1990 and 1999
 
-![sql3](https://user-images.githubusercontent.com/95380844/217949800-e9f379b6-2c37-487e-a530-3d1b028bda87.png)
+![sql5](https://user-images.githubusercontent.com/95380844/217952625-6a070b2e-e814-485a-9e80-706c44365c4a.png)
 
 
 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
