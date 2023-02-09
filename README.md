@@ -156,17 +156,42 @@ In progres...
 
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
+SELECT * FROM actors Group BY surname ASC
+
+![sql1](https://user-images.githubusercontent.com/95380844/217948466-604bc385-9126-47a1-83d6-4d9979af3073.png)
+
+
 **2. Wyświetl film, który powstał w 2019 roku.**
+
+SELECT title FROM! `movies` WHERE year_of_production = 2019
+
+[sql2](https://user-images.githubusercontent.com/95380844/217949179-de97081c-3f9f-41b6-a2d8-28a0d2b3093e.png)
 
 **3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
+SELECT title FROM `movies` WHERE year_of_production BETWEEN 1990 and 1999
+
+![sql3](https://user-images.githubusercontent.com/95380844/217949800-e9f379b6-2c37-487e-a530-3d1b028bda87.png)
+
+
 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
+
+SELECT title, price FROM `movies` WHERE price < 7
+
+![wql4](https://user-images.githubusercontent.com/95380844/217950336-9f8fa9e0-c3b4-43a9-ba29-94c104b47a42.png)
+
 
 **5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
 
+
+
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
 
+
+
 **7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
+
+
 
 **8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
 
