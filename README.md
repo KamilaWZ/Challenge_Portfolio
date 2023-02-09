@@ -163,9 +163,10 @@ SELECT * FROM actors Group BY surname ASC
 
 **2. Wyświetl film, który powstał w 2019 roku.**
 
-SELECT title FROM! `movies` WHERE year_of_production = 2019
+SELECT * FROM `movies` WHERE year_of_production = 2019
 
-[sql2](https://user-images.githubusercontent.com/95380844/217949179-de97081c-3f9f-41b6-a2d8-28a0d2b3093e.png)
+![sql4](https://user-images.githubusercontent.com/95380844/217952149-f2ff070a-4869-47cf-86a4-c1b6863f49de.png)
+
 
 **3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
 
