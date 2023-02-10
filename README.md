@@ -152,6 +152,42 @@ In progres...
 
 ## Subtask 1
 
+* Podstawowe zapytania SQL:
+
+   * SELECT TOP() FROM
+   * SELECT * FROM NAZWA_TABELI
+   * SELECT * FROM SCHEMAT.NAZWA_TABELI
+   * SELECT NAZWY_KOLUMN FROM NAZWA_TABELI
+   * SELECT NAZWA_KOLUMNY AS ALIANS FROM NAZWA_TABELI
+   * SELECT * FROM nazwa_tabeli ORDER BY nazwa_kolumny ASC/ DESC
+   * SELECT * FROM nazwa_tabeli ORDER BY nazwa_kolumny, nazwa_kolumny2
+   * SELECT * FROM nazwa_tabeli ORDER BY nazwa_kolumny DESC, nazwa_kolumny2 
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny = "warunek"
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny BETWEEN "warunek" AND "warunek2"
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny LIKE "%XXX%"
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny LIKE "_aszanka"
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny = x AND nazwa_kolumny2 = y
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny = x OR nazwa_kolumny = y OR nazwa_kolumny = z
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny IS NULL
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny IS NOT NULL
+   * SELECT * FROM nazwa_tabeli WHERE nazwa_kolumny IN (X, Y)
+   * SELECT * FROM nazwa_tabeli AS nazwa_aliasu ORDER BY nazwa_aliasu 
+   * SELECT GETDATE()
+   * SELECT GETDATE() AS aliand
+   * SELECT UPPER(łańcuch znaków)
+   * SELECT LOWER(łańcuch znaków)
+   * SELECT DATEDIFF(HOUR, data_1, data_2)
+   * SELECT DATEDIFF(MONTH, data_1, data_2)
+   * SELECT DATEDIFF(YEAR, data_1, data_2)
+   * SELECT MIN(nazwa_kolumny) FROM nazwa_tabeli
+   * SELECT MAX(nazwa_kolumny) FROM nazwa_tabeli
+   * SELECT DATEDIFF(YEAR, GETDATE, data_2)
+   * SELECT COUNT(*) FROM nazwa_tabeli
+   * SELECT SUM(nazwa_kolumny) FROM nazwa_tabeli
+   * SELECT nazwa_kolumny FROM nazwa_tabeli GROUP BY nazwa_tabeli
+   * SELECT * FROM tabela_1 JOIN tabela_2 ON tabela1_kolumnaId = tebela2_kolumnaId
+   
+
 ## Subtask 2 i 3
 
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
@@ -188,14 +224,34 @@ SELECT title, price FROM `movies` WHERE price < 7
 
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
 
+SELECT * FROM `customers` WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
+
+![SQLL](https://user-images.githubusercontent.com/95380844/218094446-a3093ddd-5454-467d-9770-c313d7e87a74.png)
 
 
 **7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
 
+SELECT * FROM `customers` WHERE customer_id IN (1, 3, 5)
 
+![SQ](https://user-images.githubusercontent.com/95380844/218094824-50c84263-04a0-47e9-9b69-d472195e3e8b.png)
 
 **8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
 
+SELECT * FROM `actors`WHERE name LIKE "An%"
+
+![aa](https://user-images.githubusercontent.com/95380844/218095153-eab933de-d142-4232-9e78-0a17dec02dd8.png)
+
+
 **9. Wyświetl dane klienta, który nie ma podanego adresu email.**
 
+SELECT * FROM `customers` WHERE email IS NULL
+
+![AAA](https://user-images.githubusercontent.com/95380844/218095420-3ef0e8b6-7c75-4561-8491-93da172bb269.png)
+
+
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+SELECT * FROM `movies` WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)
+
+![AAAA](https://user-images.githubusercontent.com/95380844/218096020-cd2720e5-ca83-456d-8c23-90c6d0e50c0f.png)
+
