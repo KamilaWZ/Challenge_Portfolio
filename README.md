@@ -219,7 +219,9 @@ SELECT title, price FROM `movies` WHERE price < 7
 
 
 **5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.**
+SELECT * FROM `actors` WHERE (actor_id = 4 and name = "Jack") OR (actor_id = 5 and name = "Harrison") OR (actor_id = 6 and name = "Anne") OR (actor_id = 7 and name = "Helena")
 
+![11](https://user-images.githubusercontent.com/95380844/218681874-73b939f2-27a6-4cf2-a2dc-ef7ae42c2260.png)
 
 
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
