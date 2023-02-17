@@ -322,6 +322,8 @@ INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com',
 ## Subtask 2
 
 Ecru: 
+![AAA](https://user-images.githubusercontent.com/95380844/219714645-abdedf37-411b-45f5-87cd-32448a630943.png)
+
 
 
 
