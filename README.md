@@ -257,6 +257,9 @@ SELECT * FROM `movies` WHERE (price > 9) AND (movie_id BETWEEN 2 AND 8)
 
 ![AAAA](https://user-images.githubusercontent.com/95380844/218096020-cd2720e5-ca83-456d-8c23-90c6d0e50c0f.png)
 
+  # TASK 6️⃣:
+  ## Subtask 1
+
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 
 UPDATE customers SET surname = 'Miler' WHERE customer_id = 3
@@ -315,5 +318,10 @@ SELECT actors.name, actors.surname, movies.title FROM actors INNER JOIN cast ON 
 INSERT INTO customers VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
 
 ![hi](https://user-images.githubusercontent.com/95380844/219712290-4ac67dd0-c90a-4119-9f5a-89ef177fcc26.png)
+
+## Subtask 2
+
+Ecru: 
+
 
 
