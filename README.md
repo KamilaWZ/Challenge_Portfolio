@@ -148,7 +148,7 @@ Przy testowaniu aplikacji natywnych bardziej skupimy się na tym, czy nie "gryzi
 
 In progres...
 
-# TASK 5
+# TASK :five:
 
 ## Subtask 1
 
@@ -325,5 +325,8 @@ Ecru:
 ![AAA](https://user-images.githubusercontent.com/95380844/219714645-abdedf37-411b-45f5-87cd-32448a630943.png)
 
 
+## Subtask 3
+
+[My testing portfolio](https://github.com/KamilaWZ/Testing-Portfolio) :fire: :fire: :fire:
 
 
